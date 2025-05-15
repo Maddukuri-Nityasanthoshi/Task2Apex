@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 2 - Web Development</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Web Development Task 2</h1>
+
+  <!-- Contact Form -->
+  <section class="container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Responsive Layout -->
+  <!-- <section class="layout">
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Projects</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <main class="grid-area">
+      <div class="grid-box">Box 1</div>
+      <div class="grid-box">Box 2</div>
+      <div class="grid-box">Box 3</div>
+    </main>
+  </section> -->
+
+  <!-- To-Do List -->
+  <section class="todo-section">
+    <h2>My To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a task" />
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
